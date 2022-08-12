@@ -1,5 +1,4 @@
 import pygame, sys
-from pygame.locals import *
 
 # * Importamos as dependências necessárias.
 
@@ -11,7 +10,7 @@ class Jogo(): # * Criamos uma classe onde vamos colocar as definições gerais.
 
         pygame.init() # ! Importantíssimo, inicializa TODOS os módulos.
 
-        self.screen = pygame.display.set_mode((1270, 720)) 
+        self.screen = pygame.display.set_mode((1280, 720)) 
         pygame.display.set_caption('Hatey')
 
         self.clock = pygame.time.Clock()
